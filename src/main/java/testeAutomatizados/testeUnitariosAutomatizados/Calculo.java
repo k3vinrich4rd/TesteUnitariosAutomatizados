@@ -8,7 +8,7 @@ public class Calculo {
 
     public double raizQuadrada(double number) {
         if (number < 0) {
-            throw new IllegalArgumentException("Erro, impossivel efetuar a raiz quadrada real para número negativos");
+            throw new IllegalArgumentException("Erro, impossível efetuar a raiz quadrada real para número negativos");
         }
         return Math.sqrt(number);
     }
